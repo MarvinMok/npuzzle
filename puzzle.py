@@ -365,7 +365,7 @@ def AStar(state):
 		#checks if solution
 		if isGoal(currentstate):
 			#print (parents)
-			print(nodes)
+			#print(nodes)
 			return parents[currentstate]
 
 		#computes neighbors and adds them to parents, frontier, and discovered if not discovered
